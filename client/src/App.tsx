@@ -49,34 +49,26 @@ function App() {
     // Depois, substitua os URLs abaixo pelos nomes dos seus arquivos
     // Exemplo: '/images/foto1.jpg', '/images/foto2.jpg', etc.
 const images = [
-  '/images/foto (11).jpg',
-  // '/images/foto (1).jpg',
-  '/images/foto (2).jpg',
-  '/images/foto (3).jpg',
-  '/images/foto (4).jpg',
-  '/images/foto (5).jpg',
-  '/images/foto (6).jpg',
-  '/images/foto (7).jpg',
-  '/images/foto (8).jpg',
-  '/images/foto (9).jpg',
-  '/images/foto (10).jpg',
-  '/images/foto (12).jpg',
-  '/images/foto (13).jpg',
-  '/images/foto (14).jpg',
-  '/images/foto (15).jpg',
-  '/images/foto (16).jpg',
-  '/images/foto (17).jpg',
-  '/images/foto (18).jpg'
-
-      
-      // Placeholder temporário (remova quando adicionar suas fotos)
-      // 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=500&h=500&fit=crop',
-      // 'https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=500&h=500&fit=crop',
-      // 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500&h=500&fit=crop',
-      // 'https://images.unsplash.com/photo-1506157786151-b8491531f063?w=500&h=500&fit=crop',
-      // 'https://images.unsplash.com/photo-1519046904884-53103b34b206?w=500&h=500&fit=crop',
-    
+  '/images/foto-11.jpg',
+  '/images/foto-2.jpg',
+  '/images/foto-12.jpg',
+  '/images/foto-4.jpg',
+  '/images/foto-3.jpg',
+  '/images/foto-5.jpg',
+  '/images/foto-6.jpg',
+  '/images/foto-7.jpg',
+  '/images/foto-8.jpg',
+  '/images/foto-9.jpg',
+  '/images/foto-10.jpg',
+  '/images/foto-14.jpg',
+  '/images/foto-15.jpg',
+  '/images/foto-13.jpg',
+  '/images/foto-16.jpg',
+  '/images/foto-17.jpg',
+  '/images/foto-18.jpg'
 ];
+
+
 
     gallery.innerHTML = '';
     images.forEach((imageUrl, index) => {
@@ -598,7 +590,7 @@ const images = [
         <section className="hero" id="hero">
           <div className="hero-content">
             <h2 className="hero-title" data-aos="fade-up" data-aos-duration="1000">
-              E em menos de dois meses...
+              Em tão pouco tempo, temos todo do mundo.
             </h2>
           </div>
         </section>
@@ -637,9 +629,8 @@ const images = [
             Ama quem tem que amar, e despreza quem merece desprezo.
             É respeitosa, sabe tratar bem as pessoas ao redor, além de ser muito inteligente.
             Continue valorizando esse ser humano maravilhoso que você é, buscando ser mais humana dia após dia.
-            E se precisar de mim, "desprecise", eu já estarei lá...
+            E se precisar de mim, "desprecise", eu já estarei lá.
           </p>
-          <h1>Feliz aniversário! 🎁</h1>
         </div>
       </footer>
     </div>
